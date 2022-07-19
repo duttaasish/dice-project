@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        button:hover {
+         color:rgb(239, 17, 17);
+        }
+        </style>
+  </head>
+  
+  <body>    
+    <div class="container">
+      <h1>Dice Game</h1>
+      <div class="dice">
+        <p class="pHead">Dice 1</p>
+        <img src="images/dice.png" alt="Dice6.png">
+      </div>
+      <div class="dice">
+        <p class="pHead">Dice 2</p>
+        <img src="images/dice.png" alt="Dice6.png">
+      </div>
+    </div>
+    <div class="buttonDiv">
+        <button onclick="rollCount()" class="button"> Roll</button>
+    </div>
+    <div class="container">
+        <p id="rollCount" class="pHead">Your Lucky Number</p>
+    </div>
+    <script src="script/dice.js" type="text/javascript">
+        
+    </script>
+  </body>
+
+  <footer align=center>
+    Made By Asish Dutta
+  </footer>
+</html>
