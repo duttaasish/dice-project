@@ -5,7 +5,7 @@ body{
     text-align: center;
     font-size: 4rem;
     color:rgb(103, 222, 123);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   }
   .pHead{
     color:rgb(103, 222, 123);
@@ -43,6 +43,7 @@ body{
   footer{
       color: whitesmoke;
       background-color: black;
+      padding: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
